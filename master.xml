@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <include name="_remotes.xml" />
+  <default revision="refs/heads/master"
+           remote="asf"
+           sync-j="4" />
+  <notice>
+    Your sources have been sync'd successfully.
+  </notice>
+
+  <project path="."
+           name="couchdb"
+           remote="asf">
+      <copyfile src="rebar.config.script" dest="rebar.config.script.overwrite"/>
+  </project>
+  <project path="src/b64url"
+           name="couchdb-b64url"/>
+  <project path="src/bear"
+           name="couchdb-bear"/>
+  <project path="src/cassim"
+           name="couchdb-cassim"/>
+  <project path="src/config"
+           name="couchdb-config"/>
+  <project path="src/chttpd"
+           name="couchdb-chttpd"/>
+  <project path="src/couch"
+           name="couchdb-couch"/>
+  <project path="src/couch_dbupdates"
+           name="couchdb-couch-dbupdates"/>
+  <project path="src/couch_epi"
+           name="couchdb-couch-epi"/>
+  <project path="src/couch_event"
+           name="couchdb-couch-event"/>
+  <project path="src/couch_index"
+           name="couchdb-couch-index"/>
+  <project path="src/couch_log"
+           name="couchdb-couch-log"/>
+  <project path="src/couch_mrview"
+           name="couchdb-couch-mrview"/>
+  <project path="src/couch_plugins"
+           name="couchdb-couch-plugins"/>
+  <project path="src/couch_replicator"
+           name="couchdb-couch-replicator"/>
+  <project path="src/couch_stats"
+           name="couchdb-couch-stats"/>
+  <project path="docs"
+           name="couchdb-documentation"/>
+  <project path="src/ddoc_cache"
+           name="couchdb-ddoc-cache"/>
+  <project path="src/ets_lru"
+           name="couchdb-ets-lru"/>
+  <project path="src/fabric"
+           name="couchdb-fabric"/>
+  <project path="fauxton"
+           name="couchdb-fauxton"/>
+  <project path="src/folsom"
+           name="couchdb-folsom"/>
+  <project path="src/global_changes"
+           name="couchdb-global-changes"/>
+  <project path="src/goldrush"
+           name="couchdb-goldrush"/>
+  <project path="src/ibrowse"
+           name="couchdb-ibrowse"/>
+  <project path="src/ioq"
+           name="couchdb-ioq"/>
+  <project path="src/jiffy"
+           name="couchdb-jiffy"/>
+  <project path="src/khash"
+           name="couchdb-khash"/>
+  <project path="src/lager"
+           name="couchdb-lager"/>
+  <project path="src/mango"
+           name="couchdb-mango"/>
+  <project path="src/mem3"
+           name="couchdb-mem3"/>
+  <project path="src/mochiweb"
+           name="couchdb-mochiweb"/>
+  <project path="src/oauth"
+           name="couchdb-oauth"/>
+  <project path="src/rexi"
+           name="couchdb-rexi"/>
+  <project path="src/snappy"
+           name="couchdb-snappy"/>
+  <project path="src/setup"
+           name="couchdb-setup"/>
+  <project path="src/meck"
+           name="couchdb-meck"/>
+
+
+</manifest>
