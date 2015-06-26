@@ -1,0 +1,11 @@
+<?xml version="1.0",encoding="UTF-8"?>
+<manifest>
+    <remote  name="asf"
+             fetch="https://git-wip-us.apache.org/repos/asf/" />
+
+    <remote  name="cloudant"
+             fetch="https://github.com/cloudant/" />
+
+    <project path="scr/couch" name="couch" remote="asf" />
+
+</manifest>
