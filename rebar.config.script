@@ -74,3 +74,4 @@ AddConfig = [
 C = lists:foldl(fun({K, V}, CfgAcc) ->
     lists:keystore(K, 1, CfgAcc, {K, V})
 end, CONFIG, AddConfig).
+%% test
