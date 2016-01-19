@@ -6,8 +6,8 @@
     # next step is only needed if you want to build a specific release
     repo init -b build-$BUILD -m release.xml
 
-    wget https://raw.githubusercontent.com/iilyak/couchdb-manifest/master/rebar.config.script -O rebar.config.script
-    rebar compile
+    wget https://raw.githubusercontent.com/iilyak/couchdb-manifest/master/rebar.config.script -O rebar.config.script.overwrite
+    rebar -C rebar.config.script.overwrite compile
 
 # Creating release
 
