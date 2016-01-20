@@ -1,3 +1,16 @@
+# Demo
+
+![couchdb-manifest demo optimized](https://cloud.githubusercontent.com/assets/9804420/12464876/22bf872e-bf80-11e5-9fd3-5b23e0ca924d.gif)
+
+The source of the demo (in ttyrec) format is [here](https://github.com/iilyak/couchdb-manifest/files/98185/couchdb-manifest.tty.zip)
+
+You can play it with:
+
+
+```
+ttyplay -S 5 couchdb-manifest.tty
+```
+
 # Building couch
 
     repo init -u https://github.com/iilyak/couchdb-manifest.git
