@@ -43,7 +43,7 @@
            name="couchdb-couch-replicator"/>
   <project path="src/couch_stats"
            name="couchdb-couch-stats"/>
-  <project path="docs"
+  <project path="src/docs"
            name="couchdb-documentation"/>
   <project path="src/ddoc_cache"
            name="couchdb-ddoc-cache"/>
@@ -51,7 +51,7 @@
            name="couchdb-ets-lru"/>
   <project path="src/fabric"
            name="couchdb-fabric"/>
-  <project path="fauxton"
+  <project path="src/fauxton"
            name="couchdb-fauxton"/>
   <project path="src/folsom"
            name="couchdb-folsom"/>
