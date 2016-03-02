@@ -22,14 +22,14 @@ os:putenv("COUCHDB_CONFIG", ConfigureEnv).
 os:putenv("COUCHDB_APPS_CONFIG_DIR", filename:join([COUCHDB_ROOT, "rel/apps"])).
 
 DepDescs = [
+    couch_epi,
+    config,
     b64url,
     bear,
     cassim,
-    config,
     chttpd,
     couch,
     couch_dbupdates,
-    couch_epi,
     couch_event,
     couch_index,
     couch_log,
