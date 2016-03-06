@@ -52,6 +52,7 @@ DepDescs = [
     mem3,
     mochiweb,
     oauth,
+    peruser,
     rexi,
     snappy,
     setup,

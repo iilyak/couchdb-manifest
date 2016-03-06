@@ -77,6 +77,8 @@
            name="couchdb-mochiweb"/>
   <project path="src/oauth"
            name="couchdb-oauth"/>
+  <project path="src/couch_peruser"
+           name="couchdb-peruser"/>
   <project path="src/rexi"
            name="couchdb-rexi"/>
   <project path="src/snappy"
