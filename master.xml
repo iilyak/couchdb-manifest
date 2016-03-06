@@ -35,6 +35,8 @@
            name="couchdb-couch-index"/>
   <project path="src/couch_log"
            name="couchdb-couch-log"/>
+  <project path="src/couch_log_lager"
+           name="couchdb-couch-log-lager"/>
   <project path="src/couch_mrview"
            name="couchdb-couch-mrview"/>
   <project path="src/couch_plugins"

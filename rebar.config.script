@@ -33,6 +33,7 @@ DepDescs = [
     couch_event,
     couch_index,
     couch_log,
+    couch_log_lager,
     couch_mrview,
     couch_plugins,
     couch_replicator,
