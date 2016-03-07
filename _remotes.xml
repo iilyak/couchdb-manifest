@@ -3,7 +3,7 @@
   <remote  name="asf"
            fetch="https://git-wip-us.apache.org/repos/asf" />
   <remote  name="github"
-           fetch="ssh://git@github.com" />
+           fetch="ssh://git@github.com/apache" />
   <remote  name="private"
            fetch=".." />
 </manifest>
