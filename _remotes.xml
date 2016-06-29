@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote  name="asf"
-           fetch="https://git-wip-us.apache.org/repos/asf" />
+           fetch="https://git-wip-us.apache.org/repos/asf"
+           review="https://github.com/iilyak"/>
   <remote  name="github"
            fetch=".." />
   <remote  name="private"
